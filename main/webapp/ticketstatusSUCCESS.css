@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
+#container{
+    display: inline-block;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;   
+}
+
+ul{
+    list-style-type: none;
+}
+
+#header{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+    flex: 1 1 0px;
+    /* width: 90vw; */
+    height: 70px;
+    border: 2px solid black;
+    padding: 10px;
+    position: static;
+    top: 0px;
+    margin: 0px;
+    background-color: rgb(70, 193, 193);
+    
+    
+}
+
+
+#logo img{
+    border: 2px solid black;
+    padding: 0px;
+    margin-right: 25px;
+    flex: 0 1 0px;
+    height: 60px;
+    width: fit-content; 
+    border-radius: 5px 15px; 
+
+}
+
+#header span{
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+#header span a{
+    text-decoration: none;
+    color: white;
+}
+
+#header span a:hover{
+    transition-duration: 1.5s;
+    color: rgb(134, 37, 134);
+
+}
+
+
+#register{
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 650px;
+    flex: 1 1 0px;
+    background-color: aliceblue; 
+    
+}
+
+
+#innerContainer{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    min-width: 400px;
+   
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    margin: 0;
+    flex-wrap: wrap;
+    flex: 0 1 0px; 
+    background-color: bisque;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#innerContainer h1 pre{
+    position: relative;
+    left: 85px;
+    bottom: 5px;
+    font-family: serif;
+}
+
+#conformation_message{
+    position: absolute;
+    padding: 5px;
+    left: 25px;
+}
+
+#failerMessage{
+    position: absolute;
+    bottom: 45%;
+}
+
+
+#passengerdetails td{
+ padding: 10px;
+ font-size: 1.2em;
+ position: relative;
+ left: 3px;
+ row-gap: 10px;
+}
+
+
+#holder{
+    border: 2px red solid;
+    position: relative;
+    bottom: 30px;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+
+}
+
+#buttonholder{
+    /* border: 2px red solid; */
+    position: relative;
+    top: 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: larger;
+    flex: 1;
+}
+
+#buttonholder button{
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    font-family: sans-serif;
+   
+}
+
+
+#download{
+    width: 110px;
+    position: relative;
+    left: 5px;
+}
+
+#download:hover{
+    background-color: rgb(192, 170, 170);
+}
+
+
+#social{
+    display: inline-flex;
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+}
+
+#social ul,a{
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    list-style-type: none ;
+    text-decoration: none;
+}
+
+#social a:hover{
+    color: rgb(46, 225, 192);
+}
+
+@media print{
+    
+    body {
+        visibility: hidden;
+    }
+
+    #holder{
+        visibility: visible;    
+    }
+
+
+}
+

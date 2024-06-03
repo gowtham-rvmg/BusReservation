@@ -1,0 +1,5 @@
+function buttonholder(){
+    
+        window.print();
+    
+}

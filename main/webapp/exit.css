@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
+#container{
+    display: inline-block;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;   
+}
+
+#header{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    /* font-size: larger; */
+    flex: 1 1 0px;
+    height: 70px;
+    border: 2px solid black;
+    padding: 10px;
+    position: static;
+    top: 0px;
+    margin: 0px;
+    background-color: rgb(70, 193, 193);
+    
+    
+}
+
+
+#logo img{
+    border: 2px solid black;
+    padding: 0px;
+    margin-right: 25px;
+    flex: 0 1 0px;
+    height: 60px;
+    width: fit-content; 
+    border-radius: 5px 15px; 
+    bottom: 20px; 
+    position: relative;
+
+}
+
+#header span{
+    margin-left: 15px;
+    bottom: 20px; 
+    position: relative;
+    margin-left: 10px;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;  
+}
+
+#header a:hover{
+    transition-duration: 1.5s;
+    color: rgb(134, 37, 134);
+
+}
+
+
+#register{
+    border: 2px solid black;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    height: 650px;
+    flex: 1 1 0px;
+    position: relative;
+    background-color: aliceblue; 
+    
+}
+
+#exit h1,h2{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#exit h1:hover,h2:hover{
+    -webkit-text-stroke: 1px goldenrod;
+
+}
+
+
+#social{
+    display: inline-flex;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#social ul,a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    flex: 1;
+    padding: 5px;
+    list-style-type: none ;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+#social a:hover{
+    color: rgb(46, 225, 192);
+}

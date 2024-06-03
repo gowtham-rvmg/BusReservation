@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
+#container{
+    display: inline-block;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;   
+}
+
+#header{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+    flex: 1 1 0px;
+    height: 70px;
+    border: 2px solid black;
+    padding: 10px;
+    position: static;
+    top: 0px;
+    margin: 0px;
+    background-color: rgb(70, 193, 193);
+    
+    
+}
+
+
+#logo img{
+    border: 2px solid black;
+    padding: 0px;
+    margin-right: 25px;
+    flex: 0 1 0px;
+    height: 60px;
+    width: fit-content; 
+    border-radius: 5px 15px; 
+
+}
+
+#header span{
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+#header span a{
+    text-decoration: none;
+    color: white;
+}
+
+#header span a:hover{
+    transition-duration: 1.5s;
+    color: rgb(134, 37, 134);
+
+}
+
+
+#register{
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 650px;
+    flex: 1 1 0px;
+    background-color: aliceblue; 
+    
+}
+
+
+#innerContainer{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    min-width: 400px;
+   
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    margin: 0;
+    flex-wrap: wrap;
+    flex: 0 1 0px; 
+    background-color: bisque;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#innerContainer h1 pre{
+    position: relative;
+    left: 85px;
+    top: 5px;
+    font-family: serif;
+}
+
+#failerMessage{
+    position: absolute;
+    bottom: 40%;
+    left: 60px;
+}
+
+
+#conformation{
+    border: 2px rgb(1, 24, 15) solid;
+    height: 350px;
+    width: 400px;
+    position: relative;
+    bottom: 15px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#conformation table{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#tablecontiner td,input{
+    padding: 5px;
+    
+}
+
+#ABsubmit{
+    padding: 5px;
+    font-size: large;
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+
+#ABbusno input{
+    height: 15px;
+    width: 15px;
+    
+}
+
+
+#social{
+    display: inline-flex;
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+}
+
+#social ul,a{
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    list-style-type: none ;
+    text-decoration: none;
+}
+
+#social a:hover{
+    color: rgb(46, 225, 192);
+}
