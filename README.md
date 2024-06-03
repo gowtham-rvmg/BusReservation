@@ -1,7 +1,11 @@
 # BusReservation
 Fullstack Bus Reservation System
+<h3><b>Personal Info:</b></h3>
+
+
 <h1 align="center">Hi 👋, I'm Gowtham R</h1>
 <h3 align="center">A passionate Fullstack developer from India</h3>
+
 
 - 🔭 I’m currently working on [Fullstack Bus Reservation System](https://github.com/gowtham-rvmg/BusReservation)
 
