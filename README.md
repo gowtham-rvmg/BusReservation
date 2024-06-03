@@ -1,5 +1,8 @@
 # BusReservation
 Fullstack Bus Reservation System
+
+<p>Hello!! buddies, This project was a basic model for Real time Bus Reservation System application.
+In this Dynamic web project i've used JSP, CSS and Javascript for Frontend and Core JAVA for Backend. In addition to that i've used MYSQL as Database for storing data and JDBC as  Database connectivity to perform CRUD operations.</p>
 <h3><b>Personal Info:</b></h3>
 
 
